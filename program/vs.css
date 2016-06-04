@@ -1,0 +1,33 @@
+body {
+  background-color: #FFFF55;
+  text-align: center;
+  color: black;
+}
+
+  table{
+    border:solid 1px orange;
+    border-spacing:0px;
+    margin-bottom:16px;
+    margin-right: auto;
+    margin-left: auto;}
+
+  th,td{
+    border:solid 1px orange;
+    padding:4px;
+  }
+
+  #contents{
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  #battle{
+    width: 720px;
+  }
+
+  #score{
+    width: 210px;
+    position:absolute;
+    top:0;
+    right: 30px;
+  }

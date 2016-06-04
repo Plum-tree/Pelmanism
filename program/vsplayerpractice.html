@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title>vsplayer practice</title>
+	<script type = "text/javascript">
+
+		var bare_url = "http://www.waseda.jp/student/weekly/contents/2007b.137j01.jpg";
+		var counter = 0;
+		var hantei;
+		var bgflug = false;
+		var player1_score = 0;
+		var player2_score = 0;
+		var turncounter = 0;
+		
+		var beeps = new Audio();
+		beeps.src = "se02.wav";
+
+		var correct = new Audio();
+		correct.src = "correct.mp3";
+
+		function imageSearch(){
+			var query = document.getElementById('searchText').value;
+			var new_script = document.createElement('script');
+			var new_script = api;
+			// 生成したスクリプトを自HTMLの先頭に追加してブラウザに実行させる
+			document.head.appendChild(new_script);
+		}
+
+
+		function showResults(data){
+			clearResults(1); 
+		}
+
+		function clearResults(flg){
+			switch(flg){
+				case 1; // 検索結果クリア
+					for (i = 0; i < 8; i++){
+						var node = document.getElementById("r" + String(i));
+						while (node.firstChild){
+							node.removeChild(node.lastChild);
+						}
+					}
+				break;
+			}
+
+				case 2;
+				
+
+		}
+
+		function onClickdo(node){
+
+		}
+
+		function saveResult(flg){
+
+		}
+
+		function randomizeImage(){
+
+		}
+
+		function shuffle(){
+
+		}
+
+		function onClickDo_game(node){
+
+		}
+
+		function colorChange(flug){
+
+		}
+
+		function truncheck(flug){
+
+		}
+
+		function winchecker(){
+
+		}
+
+	</script>
+</head>
+<body>
+</body>
+</html>
